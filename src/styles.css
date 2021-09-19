@@ -1,0 +1,106 @@
+body,
+html {
+  background-color: #567acd;
+}
+
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6rem;
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #567acd;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+a {
+  color: #567acd;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25em;
+  font-size: 90%;
+  color: gray;
+}
+
+/* reset input */
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input {
+  padding: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: lightgray;
+  background-color: white;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #567acd;
+}
+
+button.submit {
+  display: inline-block;
+  margin: 1rem 1rem 0 0;
+  padding: 10px;
+  /*border-width: 1px;*/
+  border-width: 3px;
+  border-style: solid;
+  border-color: lightgray;
+  background-color: white;
+}
+
+button.submit:enabled {
+  border: 3px solid #567acd;
+  color: #567acd;
+  transition: all 0.2s;
+}
+
+button.submit:enabled:hover {
+  background-color: #567acd;
+  color: #fff;
+  cursor: pointer;
+}
+
+hr {
+  margin: 4rem;
+  border: none;
+  border-top: 1px solid #aaa;
+}
+
+.notice p {
+  text-align: center;
+}
+
+.notice code {
+  background-color: #eceff8;
+  padding: 2px 4px;
+}
+
+.notice pre code {
+  background-color: #eceff8;
+  display: block;
+  margin: 2rem 4rem;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 80%;
+}
