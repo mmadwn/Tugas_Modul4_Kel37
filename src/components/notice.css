@@ -1,0 +1,12 @@
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .titlecontext{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
